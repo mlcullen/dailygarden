@@ -14,12 +14,20 @@ class MainActivity : AppCompatActivity() {
                 textMessage.setText(R.string.title_home)
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.navigation_dashboard -> {
-                textMessage.setText(R.string.title_dashboard)
+            R.id.navigation_plants -> {
+                textMessage.setText(R.string.title_plants)
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.navigation_history -> {
+                textMessage.setText(R.string.title_history)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_notifications -> {
                 textMessage.setText(R.string.title_notifications)
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.navigation_settings -> {
+                textMessage.setText(R.string.title_settings)
                 return@OnNavigationItemSelectedListener true
             }
         }
